@@ -191,3 +191,4 @@ function lineGenerator(x,data,energy, color) {
     .attr("d", line)
     .attr("transform", (d, i) => `translate(${width / 2} ${height / 2}) `);
 }
+ 
